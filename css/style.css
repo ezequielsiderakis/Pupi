@@ -1,0 +1,118 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .body{
+      background-color: aqua;   
+      width: 80%;
+      margin: auto;
+      display: block;
+  
+} }
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {.body{
+  background-color: aqua;   
+  width: 80%;
+  margin: auto;
+  display: block;
+}  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { .body{
+  background-color: aqua;   
+  width: 80%;
+  margin: auto;
+  display: block;
+} }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { .body{
+  background-color: aqua;   
+  width: 80%;
+  margin: auto;
+  display: block;
+} }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { .body{
+  background-color: aqua;   
+  width: 80%;
+  margin: auto;
+  display: block;
+} }
+
+.body {
+  background-color: #be0bbe; }
+  .body container-fluid {
+    border-style: double;
+    background: linear-gradient(#d111a1, #2eb5d6); }
+
+.titulo {
+  font-family: 'Birthstone Bounce', cursive;
+  font-family: 'Cherish', cursive;
+  font-family: 'Grechen Fuemen', cursive;
+  text-align: center;
+  margin-right: 300px;
+  margin-left: 350px;
+  display: flex;
+  position: relative; }
+
+.nav {
+  text-align: in line;
+  color: black; }
+  .nav nav-item {
+    font-weight: bolder;
+    display: inline; }
+    .nav nav-item nav-link {
+      color: white;
+      text-transform: uppercase;
+      font-family: 'Birthstone Bounce', cursive;
+      font-family: 'Cherish', cursive;
+      font-family: 'Grechen Fuemen', cursive;
+      text-align: center;
+      margin-left: 160px;
+      display: flex; }
+
+.footer {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  text-align: inline; }
+
+.card {
+  background-color: aquamarine;
+  justify-content: initial;
+  display: flex;
+  text-align: left; }
+
+.carousel slide {
+  display: flex;
+  margin: 100px;
+  padding: 150px; }
+  .carousel slide .carrousel indicator {
+    color: black; }
+  .carousel slide .carrousel-item active {
+    width: 50px;
+    height: 50; }
+
+.formulario {
+  text-transform: uppercase;
+  border-style: dotted; }
+
+.nav .navbar navbar-light bg-light {
+  background-color: turquoise;
+  text-align: center;
+  display: flex; }
+  .nav .navbar navbar-light bg-light .container {
+    justify-content: center; }
+  .nav .navbar navbar-light bg-light .navbar-brand {
+    text-align: inline;
+    display: flex;
+    justify-content: left;
+    color: black;
+    background-color: turquoise; }

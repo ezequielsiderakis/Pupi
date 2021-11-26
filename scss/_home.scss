@@ -1,0 +1,103 @@
+.body{
+    background-color: $color-primario;
+
+    container-fluid{
+        border-style: double;
+        background: linear-gradient(#d111a1, #2eb5d6);
+
+
+    }
+}
+
+ .titulo{
+    font-family: 'Birthstone Bounce', cursive;
+    font-family: 'Cherish', cursive;
+    font-family: 'Grechen Fuemen', cursive;
+    text-align: center; 
+    margin-right: 300px;
+    margin-left: 350px;
+    display: flex;
+    position: relative
+ }
+
+ .nav{
+     text-align: in line;
+     color: black;
+
+     nav-item{
+        font-weight: bolder;
+        display: inline;
+
+        nav-link{
+            color: white;
+    text-transform: uppercase;
+    font-family: 'Birthstone Bounce', cursive;
+font-family: 'Cherish', cursive;
+font-family: 'Grechen Fuemen', cursive;
+text-align: center;
+margin-left: 160px;
+display: flex;
+        }
+     }
+ }
+
+ .footer{
+     width: 15px;
+     height: 15px;
+     display: flex;
+     text-align: inline;
+
+ }
+
+
+
+ .card{
+     background-color: aquamarine;
+     justify-content:initial;
+     display: flex;
+     text-align: left;
+ }
+
+ .carousel slide{
+     display: flex;
+     margin: 100px;
+     padding: 150px;
+
+     .carrousel indicator{
+         color: black;
+
+     }
+
+     .carrousel-item active{
+         width: 50px;
+         height: 50;
+
+     }
+ }
+
+ .formulario{
+     text-transform: uppercase;
+     border-style: dotted;
+
+ }
+
+.nav{
+
+ .navbar navbar-light bg-light{
+     background-color: turquoise;
+     text-align: center;
+     display: flex;
+
+     .container{
+         justify-content: center;
+
+     }
+     .navbar-brand{
+         text-align: inline;
+         display: flex;
+         justify-content:left;
+         color: black;
+         background-color: turquoise;
+     }
+ }
+   }
