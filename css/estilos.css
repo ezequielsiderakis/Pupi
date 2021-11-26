@@ -55,8 +55,8 @@ display: flex;
 .video{
     display: flex;
    text-align: center;
-   width: 80%;
-   heigth: 80%; 
+   width: 50%;
+   heigth: 50%; 
 }
 
 .container{
