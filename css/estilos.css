@@ -53,10 +53,12 @@ display: flex;
 }
 
 .video{
-    display: flex;
-   text-align: center;
-   width: 50%;
-   heigth: 50%; 
+   float: left;
+    padding: 10px;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 3rem;
 }
 
 .container{
