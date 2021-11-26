@@ -49,14 +49,14 @@ display: inline;
 font-family: 'Cherish', cursive;
 font-family: 'Grechen Fuemen', cursive;
 text-align: center;
-margin-left: 150px;
 display: flex;
 }
 
 .video{
     display: flex;
    text-align: center;
-   margin-left: 5%;
+   width: 80%;
+   heigth: 80%; 
 }
 
 .container{
