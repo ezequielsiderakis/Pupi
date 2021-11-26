@@ -9,7 +9,7 @@ box-sizing: border-box;
 .body{
         background-color: aqua;   
         width: 100%;
-        margin: auto;
+        margin: 100%;
         display: block;
  }
 
