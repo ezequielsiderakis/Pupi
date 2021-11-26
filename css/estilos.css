@@ -21,15 +21,13 @@ display: flex;
 }
 
 .tiTulo{
-    font-family: 'Birthstone Bounce', cursive;
+font-family: 'Birthstone Bounce', cursive;
 font-family: 'Cherish', cursive;
 font-family: 'Grechen Fuemen', cursive;
 text-align: center; 
-margin-right: 300px;
-margin-left: 350px;
 display: flex;
 position: relative;
-color: Black
+color: Black;
 
 
 }
