@@ -3,14 +3,14 @@
 *{
     margin: 0%;
     padding: 0%;
-box-sizing: border-box    ;
+box-sizing: border-box;
 }
 
 .body{
         background-color: aqua;   
         width: 80%;
         margin: auto;
-        display: block;
+       
  }
 
 .container-fluid{
@@ -21,15 +21,13 @@ display: flex;
 }
 
 .tiTulo{
-    font-family: 'Birthstone Bounce', cursive;
+font-family: 'Birthstone Bounce', cursive;
 font-family: 'Cherish', cursive;
 font-family: 'Grechen Fuemen', cursive;
-text-align: inline; 
-margin-right: 300px;
-margin-left: 350px;
+text-align: center; 
 display: flex;
 position: relative;
-color: Black
+color: Black;
 
 
 }
@@ -51,13 +49,12 @@ display: inline;
 font-family: 'Cherish', cursive;
 font-family: 'Grechen Fuemen', cursive;
 text-align: center;
-margin-left: 160px;
 display: flex;
 }
 
 .video{
-   text-align: center;
-   margin-left: 10%;
+  width:100%;
+max-width:600px;
 }
 
 .container{
@@ -95,11 +92,12 @@ display: flex;
     display: flex;
     text-align:left;
     display: inline-block;
+    
 }
 
 .card-img-top{
-    width: 290px;
-    height: 250px;
+   width:100%;
+max-width:600px;
     display: flex;
 }
 
