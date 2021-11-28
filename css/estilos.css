@@ -30,26 +30,6 @@ position: relative;
 color: Black;
     }
     
-
-.logo{
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 120%;
-      width: 250%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
- }
-
-
-
 .nav{
     text-align: inline;
 }
@@ -69,6 +49,23 @@ font-family: 'Grechen Fuemen', cursive;
 text-align: center;
 display: flex;
 }
+
+.logo{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 120%;
+      width: 250%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+ }
 
 .video{
   width:100%;
